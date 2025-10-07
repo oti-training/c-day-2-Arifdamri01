@@ -10,7 +10,7 @@ Use GDB to identify and fix data corruption caused by an uninitialized variable 
 6. Identify bug: `result` is not initialized before use.
 7. Fix by initializing `int result = 0;`
 8. Recompile and test: `./data` should print "PASS"
-9. Run unit tests to verify.
+9. Run unit tests to verify.data.c
 ## GDB Commands for Data Issues
 - `break <function>`: Set breakpoint
 - `run`: Start execution
